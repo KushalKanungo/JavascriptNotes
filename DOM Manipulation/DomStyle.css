@@ -1,0 +1,48 @@
+.box1{
+    height: 150px;
+    width: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 20px;
+    flex-shrink: 0;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   margin: 50px;
+}
+
+.buttons{
+    height: 50px;
+    width: 100px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: coral;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.buttons:hover{
+    background-color:yellow;
+}
+
+.buttons:active{
+    background-color: beige;
+}
+
+.hide{
+    visibility: hidden;
+}
